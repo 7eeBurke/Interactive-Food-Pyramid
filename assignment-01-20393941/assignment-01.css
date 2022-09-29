@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(255,254,158);
+    background: linear-gradient(180deg, rgb(99, 61, 202) 0%, rgb(216, 115, 0) 20%, rgb(220, 238, 141) 60%);
+    text-align: center;
+  }
+  h3 {
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  form {
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  #dateInput {
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 1.2vw;
+  }
+  #pyramid {
+    clip-path: polygon(50% 0%, 5% 100%, 95% 100%);
+    clip-path: polygon(50% 0%, 5% 100%, 95% 100%);
+  }
+  button {
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    height: 35px;
+    width: 35px;
+    font-size: 2vw;
+    border-style: none;
+    background-color: grey;
+    color: black;
+  }
+  .section {
+    font-size: 2vw;
+    margin: 0 auto 0 auto;
+    padding: 1px;
+    text-align: center;
+    color: black;
+  }
+  .section:hover button {
+    background-color: #C9CCD1;
+    color: black;
+  }
+  .section:hover {
+    color: black;
+  }
+  .bad {
+    background-color: #d60808;
+    padding-top: 5%;
+  }
+  .fat {
+    background-color: #d36308;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .protein {
+    background-color: #e4e707;
+  }
+  .milk {
+    background-color: #2983e9;
+  }
+  .carbs {
+    background-color: #916c27;
+  }
+  .veg {
+    background-color: #2fac1e;
+  }
+  .label{
+    color: black;
+    font-size: 1.8vw;
+    font-weight:600;
+    padding-bottom: 0;
+  }
+  .contents{
+    margin-bottom: 13px;
+  }
+  
